@@ -10,11 +10,11 @@
 
 @layer components {
   .container {
-    @apply max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8;
+    @apply max-w-[1280px] mx-auto w-full;
   }
   
   .btn {
-    @apply px-6 py-3 rounded-lg font-semibold transition-all duration-300;
+    @apply px-6 py-3 rounded-lg font-semibold transition-all duration-300 text-center;
   }
   
   .btn-primary {
@@ -39,6 +39,17 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --primary: #004d00;      /* Green */
+  --primary-light: #006600;/* Lighter Green */
+  --secondary: #1a1a1a;    /* Rich Black */
+  --accent: #00ff00;       /* Bright Green for small accents */
+  --text-dark: #1a1a1a;    /* Almost Black */
+  --text-light: #ffffff;   /* White */
+  --gray-light: #f3f4f6;   /* Light Gray */
+  --gray-medium: #6b7280;  /* Medium Gray */
+  --bg-dark: #121212;      /* Dark Background */
+  --navbar-height: 5rem; /* 80px */
 }
 
 a {
