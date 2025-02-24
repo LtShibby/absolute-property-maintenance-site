@@ -143,11 +143,10 @@ function Navigation() {
                       className="p-2 text-brand-primary"
                     >
                       <svg
-                        className={`w-4 h-4 transition-transform ${
+                        className={`w-4 h-4 transition-transform stroke-brand-primary ${
                           openSubmenu === index ? 'rotate-180' : ''
                         }`}
                         fill="none"
-                        stroke="currentColor"
                         viewBox="0 0 24 24"
                       >
                         <path
