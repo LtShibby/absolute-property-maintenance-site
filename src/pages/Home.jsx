@@ -23,13 +23,13 @@ export default function Home() {
               </h1>
               
               <p className="text-xl text-white/90 mb-12 max-w-2xl mx-auto leading-relaxed">
-                Expert maintenance solutions for your property needs.
-                <span className="block mt-2">Quality service you can trust.</span>
+                Your Property Deserves Absolute Care 
+                <span className="block mt-2">with no hassle.</span>
               </p>
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                <a href="/contact" className="btn btn-primary">
+                <a href="/contact" className="btn btn-secondary">
                   Get a Free Quote
                 </a>
                 <a href="/services" className="btn btn-secondary">
