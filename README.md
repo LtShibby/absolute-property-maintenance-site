@@ -84,3 +84,45 @@ This is a private business website. Please contact the repository owner for cont
 
 ## License
 This project is private and proprietary. All rights reserved.
+
+## Deployment
+
+This project is configured for deployment on Vercel. To deploy:
+
+1. Fork or clone this repository
+2. Create a new project on Vercel
+3. Connect your repository to Vercel
+4. Add the following environment variables in Vercel:
+   - `VITE_EMAILJS_SERVICE_ID`
+   - `VITE_EMAILJS_TEMPLATE_ID`
+   - `VITE_EMAILJS_PUBLIC_KEY`
+5. Deploy!
+
+### Manual Deployment
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Login to Vercel
+vercel login
+
+# Deploy
+vercel
+```
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
